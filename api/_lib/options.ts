@@ -15,7 +15,7 @@ export async function getOptions(isDev: boolean) {
     let options: Options;
     if (isDev) {
         options = {
-            args: [],
+            args: ['--lang=ja'],
             executablePath: exePath,
             headless: true
         };
